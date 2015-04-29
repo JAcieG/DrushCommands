@@ -83,6 +83,7 @@ do
                           break
                           ;;
                       "Quit")
+                          echo -e "\nThanks for using Drush by Joseph\n"
                           break
                           ;;
                       *) echo invalid option;;
@@ -169,6 +170,7 @@ do
                           break
                           ;;
                       "Quit")
+                          echo -e "\nThanks for using Drush by Joseph\n"
                           break
                           ;;
                       *) echo invalid option;;
@@ -255,6 +257,7 @@ do
                           break
                           ;;
                       "Quit")
+                          echo -e "\nThanks for using Drush by Joseph\n"
                           break
                           ;;
                       *) echo invalid option;;
@@ -341,6 +344,7 @@ do
                           break
                           ;;
                       "Quit")
+                          echo -e "\nThanks for using Drush by Joseph\n"
                           break
                           ;;
                       *) echo invalid option;;
@@ -375,7 +379,7 @@ do
             break
             ;;
         "Disable Module (local)")
-            echo -n "Enter Location > @loc- "
+            echo -n "Enter Location > @loc-"
             read loc
             echo -n "Enter Module Name > "
             read text
@@ -383,7 +387,7 @@ do
             break
             ;;
         "Disable Module (Staging)")
-            echo -n "Enter Location > @stg- "
+            echo -n "Enter Location > @stg-"
             read loc
             echo -n "Enter Module Name > "
             read text
@@ -397,19 +401,19 @@ do
             break
             ;;
         "Update DB (Local)")
-            echo -n "Enter Location > @loc- "
+            echo -n "Enter Location > @loc-"
             read loc
             drush @loc-$loc updatedb
             break
             ;;
         "Update DB (Staging)")
-            echo -n "Enter Location > @stg- "
+            echo -n "Enter Location > @stg-"
             read loc
             drush @stg-$loc updatedb
             break
             ;;
         "Feature Revert (local)")
-            echo -n "Enter Location > @loc- "
+            echo -n "Enter Location > @loc-"
             read loc
             echo -n "Enter Module Name > "
             read text
@@ -417,7 +421,7 @@ do
             break
             ;;
         "Feature Revert (staging)")
-            echo -n "Enter Location > @stg- "
+            echo -n "Enter Location > @stg-"
             read loc
             echo -n "Enter Module Name > "
             read text
@@ -429,6 +433,7 @@ do
             break
             ;;
         "Quit")
+            echo -e "\nThanks for using Drush by Joseph\n"
             break
             ;;
         *) echo invalid option;;
