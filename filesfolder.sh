@@ -6,7 +6,7 @@ do
     case $opt in
         "all")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/all
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/all
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -15,7 +15,7 @@ do
               ;;
         "admin")
                 set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.administration
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.administration
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -24,7 +24,7 @@ do
               ;;
         "admins")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.admissions
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.admissions
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -33,7 +33,7 @@ do
               ;;
         "cas")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.cas
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.cas
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -42,7 +42,7 @@ do
               ;;
         "cobe")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.cobe
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.cobe
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -51,7 +51,7 @@ do
               ;;
         "cobe-accounting")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.cobe.accounting-information-systems
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.cobe.accounting-information-systems
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -60,7 +60,7 @@ do
               ;;
         "coe")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.coe
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.coe
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -69,7 +69,7 @@ do
               ;;
         "conhs")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.conhs
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.conhs
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -78,7 +78,7 @@ do
               ;;
         "dev")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.development
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.development
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -87,7 +87,7 @@ do
               ;;
         "fnd")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.founders
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.founders
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -96,7 +96,7 @@ do
               ;;
         "grad")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.graduate
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.graduate
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -105,7 +105,7 @@ do
               ;;
         "gradadmins")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.graduate-admissions
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.graduate-admissions
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -114,7 +114,7 @@ do
               ;;
         "iss")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.iss
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.iss
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -123,7 +123,7 @@ do
               ;;
         "mahg")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.mahg
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.mahg
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -132,7 +132,7 @@ do
               ;;
         "mba")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.mba
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.mba
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -141,7 +141,7 @@ do
               ;;
         "staf")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.student-affairs
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.student-affairs
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -150,7 +150,7 @@ do
               ;;
         "train")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.training
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/ashland.edu.training
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -159,7 +159,7 @@ do
               ;;
         "blog")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/blogs.ashland.edu
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/blogs.ashland.edu
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -168,7 +168,7 @@ do
               ;;
         "default")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/default
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/default
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
@@ -177,7 +177,7 @@ do
               ;;
         "news")
             set -x
-                cd /var/www/drupalFiles/AshlandU/d7.ashlandu/docroot/sites/news.ashland.edu
+                cd /var/www/AshlandU/d7.ashlandu/docroot/sites/news.ashland.edu
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
