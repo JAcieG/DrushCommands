@@ -10,6 +10,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -19,6 +21,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -28,6 +32,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -37,6 +43,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -46,6 +54,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -55,6 +65,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -64,6 +76,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -73,6 +87,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -82,6 +98,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -91,6 +109,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -100,6 +120,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -109,6 +131,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -118,6 +142,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -127,6 +153,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -136,6 +164,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -145,6 +175,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -154,6 +186,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -163,6 +197,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -172,6 +208,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
@@ -181,6 +219,8 @@ do
                 chmod g+ws files
                 find . -type d -exec chmod g+ws {} \;
                 find . -type f -exec chmod 664 {} \;
+                find . -type d -exec chown :www-data {} \;
+                find . -type f -exec chown :www-data {} \;
                 set +x
               break
               ;;
