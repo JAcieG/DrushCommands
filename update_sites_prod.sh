@@ -14,6 +14,7 @@ drush sql-sync @prod-iss @loc-iss --no-cache --create-db --y
 drush sql-sync @prod-mahg @loc-mahg --no-cache --create-db --y
 drush sql-sync @prod-mba @loc-mba --no-cache --create-db --y
 drush sql-sync @prod-staf @loc-staf --no-cache --create-db --y
+<<<<<<< HEAD
 drush @loc-home en views_ui --y
 drush @loc-admin en views_ui --y
 drush @loc-admis en views_ui --y
@@ -28,4 +29,20 @@ drush @loc-iss en views_ui --y
 drush @loc-mahg en views_ui --y
 drush @loc-mba en views_ui --y
 drush @loc-staf en views_ui --y
+=======
+drush @loc-home en views_ui
+drush @loc-admin en views_ui
+drush @loc-admis en views_ui
+drush @loc-cas en views_ui
+drush @loc-cobe en views_ui
+drush @loc-coe en views_ui
+drush @loc-con en views_ui
+drush @loc-fnd en views_ui
+drush @loc-grad en views_ui
+drush @loc-gradadmis en views_ui
+drush @loc-iss en views_ui
+drush @loc-mahg en views_ui
+drush @loc-mba en views_ui
+drush @loc-staf en views_ui
+>>>>>>> d37e71826d5687e430b3ba28bf0e091c5b5ba1b4
 set +x
