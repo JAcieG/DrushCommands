@@ -10,6 +10,8 @@
 		echo
     	echo -n "What would you like for me to search for you?:  "
     	read action
+    	echo -n "Where would you like me to search?:   "
+    	read loc
     	set -x
-        grep -rni "$PWD/" -e "$action"
+        grep -rni "$loc" -e "$action"
         set +x        

@@ -14,5 +14,32 @@ drush sql-sync @prod-iss @loc-iss --no-cache --create-db --y
 drush sql-sync @prod-mahg @loc-mahg --no-cache --create-db --y
 drush sql-sync @prod-mba @loc-mba --no-cache --create-db --y
 drush sql-sync @prod-staf @loc-staf --no-cache --create-db --y
-drush @loc-home dis ashland_onthehub --y
+drush @loc-home vset file_temporary_path /tmp
+drush @loc-admin vset file_temporary_path /tmp
+drush @loc-admis vset file_temporary_path /tmp
+drush @loc-cas vset file_temporary_path /tmp
+drush @loc-cobe vset file_temporary_path /tmp
+drush @loc-coe vset file_temporary_path /tmp
+drush @loc-con vset file_temporary_path /tmp
+drush @loc-fnd vset file_temporary_path /tmp
+drush @loc-grad vset file_temporary_path /tmp
+drush @loc-gradadmis vset file_temporary_path /tmp
+drush @loc-iss vset file_temporary_path /tmp
+drush @loc-mahg vset file_temporary_path /tmp
+drush @loc-mba vset file_temporary_path /tmp
+drush @loc-staf vset file_temporary_path /tmp
+drush @loc-home en views_ui --y
+drush @loc-admin en views_ui --y
+drush @loc-admis en views_ui --y
+drush @loc-cas en views_ui --y
+drush @loc-cobe en views_ui --y
+drush @loc-coe en views_ui --y
+drush @loc-con en views_ui --y
+drush @loc-fnd en views_ui --y
+drush @loc-grad en views_ui --y
+drush @loc-gradadmis en views_ui --y
+drush @loc-iss en views_ui --y
+drush @loc-mahg en views_ui --y
+drush @loc-mba en views_ui --y
+drush @loc-staf en views_ui --y
 set +x

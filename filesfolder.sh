@@ -1,6 +1,6 @@
 #!/bin/bash
 PS3='Please enter your choice: '
-options=("all" "admin" "admins" "blogs" "cas" "cobe" "cobe-accounting" "coe" "con" "dev" "fnd" "grad" "gradadmis" "iss" "mahg" "mba" "news" "staf" "train" "blogs" "default" "news" "Quit")
+options=("all" "admin" "admins" "cas" "cobe" "cobe-accounting" "coe" "con" "dev" "fnd" "grad" "gradadmis" "iss" "mahg" "mba" "staf" "train" "blogs" "default" "news" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -81,7 +81,7 @@ do
                 set +x
               break
               ;;
-        "conhs")
+        "con")
             set -x
                 cd /var/www/d7.ashlandu/docroot/sites/ashland.edu.conhs
                 chmod g+ws files
